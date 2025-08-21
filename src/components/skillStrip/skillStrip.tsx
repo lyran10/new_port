@@ -1,4 +1,3 @@
-import React from 'react'
 import reactSvg from "../../assets/react-svg.svg"
 import nodeSvg from "../../assets/nodejs-svg.svg"
 import expSvg from "../../assets/express-svg.svg"

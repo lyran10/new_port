@@ -1,6 +1,4 @@
-import React from 'react'
 import { links } from '../../assets/data'
-import { FaExternalLinkAlt } from "react-icons/fa"
 
 type Props = {
 projectsRef : any

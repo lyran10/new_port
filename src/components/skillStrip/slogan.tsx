@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Slogan = () => {
   return (
     <div className='text-[30px] w-full h-[5px] flex justify-center items-center'>

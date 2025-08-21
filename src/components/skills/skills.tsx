@@ -1,4 +1,3 @@
-import React from 'react'
 import webdev from "../../assets/web-dev-svg.svg"
 import reactSvg from "../../assets/react-svg.svg"
 import javascriptSvg from "../../assets/javascript-svg.svg"

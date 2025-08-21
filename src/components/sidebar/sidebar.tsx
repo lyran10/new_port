@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { links } from '../../assets/data';

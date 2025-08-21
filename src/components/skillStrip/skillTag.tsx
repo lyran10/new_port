@@ -1,4 +1,3 @@
-import React from 'react'
 import webdev from "../../assets/web-dev-svg.svg"
 import webhos from "../../assets/web-hos-svg.svg"
 

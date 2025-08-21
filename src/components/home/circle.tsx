@@ -1,4 +1,3 @@
-import React from 'react';
 import reactSvg from "../../assets/react-svg.svg"
 import nodeSvg from "../../assets/nodejs-svg.svg"
 import expSvg from "../../assets/express-svg.svg"
@@ -9,8 +8,7 @@ type Props = {
   height: string;
 };
 
-export const Circle = ({ height, width }: Props) => {
-  const dots = 4;
+export const Circle = ({ width }: Props) => {
 
   // Radius will be half of width (assuming width = height)
   const radius = parseInt(width) / 2;

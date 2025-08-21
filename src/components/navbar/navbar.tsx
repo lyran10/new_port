@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { FaHome } from "react-icons/fa";
+import React, { useState } from 'react'
 import { useContextAPI } from '../context/context';
 
 type Props = {

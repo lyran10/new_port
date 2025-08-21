@@ -1,8 +1,3 @@
-import React, { useEffect } from 'react'
-import { FaCode } from "react-icons/fa6";
-import { Circle } from './circle';
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 import codeImg from "../../assets/code-white.jpeg"
 
 type Props = {
