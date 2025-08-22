@@ -23,7 +23,7 @@ export const Skills = ({skillsRef} : Props) => {
   return (
     <section ref={skillsRef} className='w-full min-h-[300px] bg-[#f5f5f5]'>
       <div className='relative w-[90%] m-auto flex flex-col md:flex-row justify-center items-center'>
-        <div className='relative w-full p-5 mt-20'>
+        <div className='relative w-full p-5 mt-5 md:mt-20'>
         <div className="h-[100%] w-[5px] bg-gradient-to-b absolute left-0 from-slate-300 via-slate-300 to-transparent"></div>
           <h1 className='font-bold text-blue-900 text-[18px]'>Skills</h1>
            <div className='w-full flex flex-col justify-center items-start mt-8'>

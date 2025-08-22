@@ -40,7 +40,7 @@ export const Home = ({homeRef} : Props) => {
       <span className="text-[60px] md:text-[80px] font-semibold">
         I am <span className="text-[#1E40AF] font-bold">Liran</span>.
       </span>
-      <span className="text-[40px] md:text-[60px] font-semibold text-blue-900">
+      <span className="text-[40px] md:text-[60px] font-semibold text-blue-900 text-center">
         Full Stack Developer
       </span>
       <div className='flex gap-5 justify-center items-center flex-col md:flex-row'>

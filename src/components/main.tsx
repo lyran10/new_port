@@ -60,16 +60,28 @@ export const Main = () => {
       <Sidebar />
       <Sidenav refs={refs} />
 
+      
+
+     
+      <div className='block md:hidden'>
+         <Home homeRef={homeRef}/>
+         <SkillStrip />
+        <Aboutme aboutMeRef={aboutMeRef}/>
+       <Skills skillsRef={skillsRef}/>
+        <Projects projectsRef={projectsRef}/>
+         <Experience experienceRef={experienceRef}/>
+         <Education educationRef={educationRef}/>
+         <Contact contactRef={contactRef}/>
+      </div>
+    
+    <div className='hidden md:block w-full'>
       <section ref={homeRef} className="opacity-0 transition-all duration-700">
         <Home homeRef={homeRef}/>
       </section>
-
-      <SkillStrip />
-
-      <section ref={aboutMeRef} className="opacity-0 transition-all duration-700">
+    <section ref={aboutMeRef} className="opacity-0 transition-all duration-700">
         <Aboutme aboutMeRef={aboutMeRef}/>
       </section>
-
+       <SkillStrip />
       <section ref={skillsRef} className="opacity-0 transition-all duration-700">
         <Skills skillsRef={skillsRef}/>
       </section>
@@ -89,6 +101,8 @@ export const Main = () => {
       <section ref={contactRef} className="opacity-0 transition-all duration-700">
         <Contact contactRef={contactRef}/>
       </section>
+    </div>
+  
 
       <Footer />
     </main>

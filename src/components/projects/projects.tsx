@@ -8,7 +8,7 @@ export const Projects = ({projectsRef} : Props) => {
   return (
     <section ref={projectsRef} className='w-full bg-[#f5f5f5] min-h-[300px] flex justify-center items-center'>
        <div className='w-[90%] min-h-[80%] m-auto flex flex-col justify-center items-center'>
-        <div className='relative w-full p-5 mt-20'>
+        <div className='relative w-full p-5 mt-5 md:mt-20'>
           <div className="h-[100%] w-[5px] bg-gradient-to-b absolute left-0 from-slate-300 via-slate-300 to-transparent"></div>
           <h1 className='font-bold text-blue-900 text-[18px]'>Projects</h1>
         <div className='w-full flex justify-center items-center gap-10 flex-wrap mt-8'>

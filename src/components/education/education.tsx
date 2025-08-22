@@ -6,7 +6,7 @@ export const Education = ({educationRef} : Props) => {
   return (
     <section ref={educationRef} className='w-full bg-[#f5f5f5] min-h-[300px] flex justify-center items-center'>
        <div className='w-[90%] min-h-[80%] m-auto flex flex-col justify-center items-center'>
-        <div className='relative w-full p-5 mt-20'>
+        <div className='relative w-full p-5 mt-5 md:mt-20'>
           <div className="h-[100%] w-[5px] bg-gradient-to-b absolute left-0 from-slate-300 via-slate-300 to-transparent"></div>
           <h1 className='font-bold text-blue-900 text-[18px]'>Education</h1>
             <div className='relative flex items-start justify-start h-full w-full mt-8'>

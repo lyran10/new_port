@@ -56,7 +56,11 @@ export const Navbar = ({refs} : Props) => {
     <nav className='fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-[rgba(255,255,255,0.6)] h-[60px] px-5 flex justify-between md:justify-around items-center'>
       {/* <div className='bg-white h-full w-full blur-xs top-0 left-0 z-[100]'>asdasd</div> */}
    <div className="flex items-center justify-center">
-    <span className='font-bold text-[20px] text-slate-400 tracking-wide'>Liran Ramekar</span>
+    <div className='font-semibold text-[18px] text-blue-600 flex justify-center items-center tracking-wide relative rounded-full'>
+      <span style={{fontFamily : "monospace"}} className="relative z-[2]">LIRAN <span style={{fontFamily : "monospace"}}>RAMEKAR</span>
+        </span>
+      {/* <div className='rounded-full w-full h-full bg-blue-100 blur-xs absolute'></div> */}
+    </div>
     {/* <div className="flex items-center justify-center">
   <div className="flex items-center gap-1 group cursor-pointer">
     <span className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 via-blue-500 to-blue-700 drop-shadow-[0_0_10px_rgba(59,130,246,0.7)] group-hover:drop-shadow-[0_0_20px_rgba(59,130,246,1)] transition-all duration-500">

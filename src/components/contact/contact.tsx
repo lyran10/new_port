@@ -33,8 +33,8 @@ export const Contact = ({contactRef} : Props) => {
        <section ref={contactRef} className='w-full bg-[#f5f5f5] min-h-[500px] text-slate-600 flex justify-center items-center'>
         <div className='w-[90%] flex justify-center items-center flex-col'>
         <div className='w-[60%] m-auto  p-3'>
-         <h1 className='font-bold text-[50px] text-[#1E40AF] text-center'>I’d love to hear from you.</h1>
-         <h3 className='font-bold text-slate-400 text-[20px] text-center'>You can contact on the number or email given below.</h3>
+         <h1 className='font-bold text-[30px] md:text-[50px] text-[#1E40AF] text-center'>I’d love to hear from you.</h1>
+         <h3 className='font-bold text-slate-400 text-[15px] md:text-[20px] text-center'>You can contact on the number or email given below.</h3>
          <div className='flex w-full justify-center flex-col items-center mt-3'>
          <div className="flex justify-center items-center gap-3 flex-wrap text-amber-300 font-semibold">
             <span className='text-slate-500'>🇮🇳 +917448115877</span> | 
