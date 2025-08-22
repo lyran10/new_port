@@ -75,10 +75,11 @@ export const Main = () => {
       <section ref={homeRef} className="opacity-0 transition-all duration-700">
         <Home homeRef={homeRef}/>
       </section>
+         <SkillStrip />
     <section ref={aboutMeRef} className="opacity-0 transition-all duration-700">
         <Aboutme aboutMeRef={aboutMeRef}/>
       </section>
-       <SkillStrip />
+    
       <section ref={skillsRef} className="opacity-0 transition-all duration-700">
         <Skills skillsRef={skillsRef}/>
       </section>
